@@ -1,3 +1,80 @@
 //
 // Variables
 // --------------------------------
+@neon: neon;
+
+//== Colors
+
+//** Fluorescent
+// Starts from fluo-red, spin 30 degrees each time.
+// Fluo-red #ff6666; rgb(255, 102, 102); hsl(0, 100%, 70%);
+@fluo-0: #ff6666;
+@fluo-1: #ffb366;
+@fluo-2: #ffff66;
+@fluo-3: #b3ff66;
+@fluo-4: #66ff66;
+@fluo-5: #66ffb3;
+@fluo-6: #66ffff;
+@fluo-7: #66b2ff;
+@fluo-8: #6666ff;
+@fluo-9: #b266ff;
+@fluo-a: #ff66ff;
+@fluo-b: #ff66b3;
+
+//** Grayscale
+@color-black: #000;
+@color-white: #fff;
+@color-grey: #ccc;
+
+//** Positive and Negative
+// Usually used as foreground and background color.
+// Insert 3 middle colors.
+@color-pos: #d0e4f2; //rgb(208, 228, 242); hsl(205, 57%, 88%);
+@color-mid-pos: #85a5cc;
+@color-mid: #4a6491;
+@color-mid-neg: #30395c;
+@color-neg: #1a1f2b; // rgb(26, 31, 43); hsl(222, 25%, 14%);
+
+//** Semantic colors
+@color-extra: #f2e1d0; // <code>, or other sepecial usage
+@color-default: @color-pos;
+@color-primary: @fluo-1;
+@color-danger: @fluo-0;
+@color-warning: @fluo-2;
+@color-success: @fluo-4;
+@color-info: @fluo-8;
+
+//== Scaffolding
+
+//** Global background color and foreground color
+@body-bg: @color-neg;
+@text-color: @color-pos; //** Global textual link color
+@link-color: @color-primary;
+@code-color: @color-extra;
+
+//== Typography
+
+//** Global font family
+@font-family-global: 'Helvetica Neue', 'Helvetica', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'Arial', 'sans-serif';
+@font-family-monospace: 'Inziu Iosevka SC', 'Roboto Mono', 'Monaco', 'courier', 'monospace';
+
+//** Font size
+@font-size-base: 14px;
+@font-size-text: 15px;
+@font-size-major: 16px;
+@font-size-minor: 12px;
+@heading-font-size-span: 6px;
+
+//** Line height
+@line-height-base: 1.6;
+
+//** Headings
+@headings-font-family: inherit;
+@headings-font-weight: 400;
+@headings-line-height: 1.1;
+@headings-color: inherit;
+
+//== Components
+
+//** Margin and Padding
+@gap-base: 4px;

@@ -1,0 +1,19 @@
+// Color Variants
+//
+//
+
+.color-greater(@color, @amount:10%) when(lightness(@color) > = 50%) {
+  color: lighten(@color, @amount);
+}
+
+.color-greater(@color, @amount:10%) when(lightness(@color) < 50%) {
+  color: darken(@color, @amount);
+}
+
+.color-less(@color, @amount:10%) when(lightness(@color) > 50%) {
+  color: darken(@color, @amount);
+}
+
+.color-less(@color, @amount:10%) when(lightness(@color) <= 50%) {
+  color: lighten(@color, @amount);
+}

@@ -4,4 +4,78 @@
  * Licensed under MIT (https://github.com/RimWorldHuijiWiki/RimWorld-RimFluent/blob/master/LICENSE)
  * Fluent Design for RimWorld Chinese Wiki Style.
  */
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'Arial', 'sans-serif';
+  font-weight: 400;
+  font-size: 15px;
+  color: #d0e4f2;
+  background-color: #1a1f2b;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  color: #f8fbfd;
+  transition: 0.2s ease all;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 24px;
+}
+h6 {
+  font-size: 18px;
+}
+p {
+  line-height: 1.6;
+}
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+a {
+  color: #ffb366;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffcc99;
+}
+a:active,
+a:focus {
+  color: #ff9a33;
+}
+a:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+sub,
+sup {
+  font-size: 13.5px;
+}
+small {
+  font-size: 12px;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid rgba(208, 228, 242, 0.2);
+}
 /*# sourceMappingURL=./_rimfluent.css.map */
